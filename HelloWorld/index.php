@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>
-        <?php echo "Hello Word!";?>
+        <?php echo "Hello Word! \u{1F30E}";?>
     </h1>
 </body>
 </html>
