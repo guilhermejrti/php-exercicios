@@ -7,8 +7,14 @@
 </head>
 <body>
     <?php
-     echo "A data de hoje é: " .date("d/m/y");
-    
+
+    date_default_timezone_set("America/Rio_Branco");
+
+    echo "A data de hoje é: " .date("d/m/y");
+    echo "<br>";
+    echo "A hora é " .date("G:i:s");
+    echo "<br>";
+    echo "Fuso Horário: " .date("T");
     ?>
 </body>
 </html>
